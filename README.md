@@ -12,6 +12,13 @@ Carry a run counter: increment on 1, reset on 0, track the best seen. That's the
 
 **Complexity:** O(n) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
